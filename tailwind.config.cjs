@@ -16,13 +16,6 @@ module.exports = {
       },
       fontFamily:  {
         sans: "Inter, sans-serif"
-      },
-      colors: {
-        esmerald: {
-          700: "#047857",
-          600: "#059669",
-          500: "#10b981"
-        }
       }
     },
   },
