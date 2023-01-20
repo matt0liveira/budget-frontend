@@ -2,12 +2,10 @@ import clsx from "clsx";
 
 export default (props) => {
   return (
-		<span className={clsx("mt-1 font-sans", {
+		<span className={clsx("font-sans", {
 			"text-xs": props.size === "sm",
 			"text-sm": props.size === "md" || props.size == null,
-			"text-md": props.size === "lg",
-			"text-gray-400": props.color === "gray-light" || props.color == null,
-			"text-gray-800": props.color === "gray-dark"
+			"text-md": props.size === "lg"
 		},
 		props?.className)}>
 			{props.children}

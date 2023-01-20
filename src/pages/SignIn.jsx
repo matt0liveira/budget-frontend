@@ -59,7 +59,7 @@ export default () => {
 				<Button type="submit">Entrar na plataforma</Button>
 
 				<footer className="flex flex-col items-center">
-					<Text className="underline hover:text-gray-500" size="md">
+					<Text className="my-2 underline hover:text-gray-500" size="md">
 						Não possui uma conta?
 						<Link to="/signup"> Crie uma conta agora</Link>
 					</Text>
